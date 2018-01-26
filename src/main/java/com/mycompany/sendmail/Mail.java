@@ -18,6 +18,7 @@ public class Mail extends MimeMessage {
 
     public Mail(Session session) {
         super(session);
+        System.out.println("com.mycompany.sendmail.Mail.<init>()");
     }
 
     public Mail createMail(Session session) throws Exception {
